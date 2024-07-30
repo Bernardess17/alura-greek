@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@media (max-width: 376px) {
+  body {
+    /* background-color: green; */
+  }
+  .hero img {
+    display: none;
+  }
+  .barra-pesquisa input {
+    display: none;
+  }
+  .produtos {
+    width: 103%;
+    margin-left: 6px;
+  }
+  .produtos2 {
+    width: 103%;
+    margin-left: 6px;
+  }
+  .produtos3 {
+    width: 103%;
+    margin-left: 6px;
+  }
+  .logo-rodape {
+    display: flex;
+    margin-left: 100px;
+  }
+  .titulo1 {
+    margin-top: 72%;
+    margin-left: -261px;
+  }
+  .input input {
+    width: 271%;
+    margin-top: 148%;
+    height: 80%;
+    margin-left: -2%;
+  }
+  .input1 input {
+    width: 167px;
+    margin-top: 139%;
+    height: 70%;
+    margin-left: 87%;
+  }
+  .sub-texto {
+    margin-left: -174px;
+  }
+  .roda-pe {
+    height: 529px;
+  }
+  .buttun button {
+    margin-top: 458px;
+    margin-left: -19%;
+    width: 123px;
+  }
+}

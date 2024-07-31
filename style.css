@@ -13,6 +13,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.container {
+  width: 100%;
+}
+
 .titulo {
   display: flex;
   height: 115px;
@@ -223,7 +227,7 @@ body {
   font-size: 16px;
 }
 
-.roda-pe {
+.rodape {
   display: flex;
   width: 100%;
   height: 300px;
@@ -283,13 +287,13 @@ body {
   border: none;
   color: #ffffff;
 }
-.rodape p {
+.copyright p {
   display: flex;
   margin-top: 21px;
   font-size: 16px;
   justify-content: center;
 }
-.rodape span {
+.copyright span {
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -297,10 +301,19 @@ body {
 
 /* Celulares */
 @media (max-width: 450px) {
+  .container {
+    background-color: #f5f5f5;
+  }
   .logo-titulo {
     margin-left: -137%;
   }
-  .hero img {
+  .hero {
+    display: none;
+  }
+  .titulo-star {
+    display: none;
+  }
+  .titulo-console {
     display: none;
   }
   .barra-pesquisa input {
@@ -371,26 +384,26 @@ body {
     height: 70%;
     margin-left: -83%;
   }
-}
-.sub-texto {
-  margin-left: -22%;
-  height: 231px;
-  margin-top: 106px;
-}
-.roda-pe {
-  height: 600px;
-  width: 156%;
-}
-.buttun button {
-  margin-top: 415%;
-  margin-left: -285%;
-  width: 122px;
-}
-.rodape p {
-  margin-left: 167px;
-}
-.rodape span {
-  margin-left: 186px;
+  .sub-texto {
+    margin-left: -22%;
+    height: 231px;
+    margin-top: 106px;
+  }
+  .rodape {
+    height: 600px;
+    width: 100%;
+  }
+  .buttun button {
+    margin-top: 415%;
+    margin-left: -285%;
+    width: 122px;
+  }
+  .copyright p {
+    margin-left: 167px;
+  }
+  .copyright span {
+    margin-left: 186px;
+  }
 }
 
 /* Tablets */
@@ -398,7 +411,6 @@ body {
   .hero img {
     display: none;
   }
-
   .titulo {
     margin: 0px;
     height: 72px;
@@ -473,7 +485,7 @@ body {
     justify-content: center;
     margin-top: -4%;
   }
-  .roda-pe {
+  .rodape {
     display: flex;
     width: 111%;
     margin-left: -8px;
@@ -511,12 +523,12 @@ body {
     margin-left: 28px;
     margin-top: 34px;
   }
-  .rodape p {
+  .copyright p {
     display: flex;
     width: 99%;
     margin-left: -1%;
   }
-  .rodape span {
+  .copyright span {
     display: flex;
     width: 99%;
   }

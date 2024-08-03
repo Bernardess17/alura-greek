@@ -231,10 +231,10 @@ body {
     display: none;
   }
   .button-login button {
-    margin-left: 124px;
+    margin-left: 333px;
   }
   .logo-titulo img {
-    margin-left: -96px;
+    margin-left: -26px;
     width: 166px;
     height: 42px;
   }
@@ -244,27 +244,26 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 62px 152px;
-    width: 112%;
+    width: 195%;
     margin-left: -7px;
   }
   .logo-rodape img {
-    margin-left: 76%;
+    margin-left: 155%;
   }
   .rodape {
     display: flex;
-    width: 194%;
+    width: 274%;
     margin-left: -7px;
     height: 630px;
   }
   .sub-texto {
-    width: 100%;
     font-size: 16px;
-    margin-left: -21px;
-    margin-top: 16%;
+    margin-left: 127px;
+    margin-top: 9%;
   }
   .titulo1 {
-    margin-top: 52%;
-    margin-left: -127%;
+    margin-top: 37%;
+    margin-left: -52%;
   }
   .input input {
     width: 312px;

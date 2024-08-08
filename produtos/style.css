@@ -244,7 +244,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 62px 152px;
-    width: 195%;
+    width: 197%;
     margin-left: -7px;
   }
   .logo-rodape img {
@@ -252,7 +252,7 @@ body {
   }
   .rodape {
     display: flex;
-    width: 274%;
+    width: 279%;
     margin-left: -7px;
     height: 630px;
   }
@@ -290,5 +290,17 @@ body {
     background: #2a7ae4;
     border: none;
     color: #ffffff;
+  }
+  .copyright p {
+    display: flex;
+    margin-top: 21px;
+    font-size: 16px;
+    margin-left: 93%;
+    width: 100%;
+  }
+  .copyright span {
+    font-size: 16px;
+    display: flex;
+    margin-left: 139%;
   }
 }
